@@ -36,7 +36,7 @@ function renderLogin(app){
     <input id="login_pass" type="password" class="w-full border rounded px-3 py-2 mb-4" placeholder="Password"/>
     <div class="flex gap-2"><button id="btnLogin" class="flex-1 bg-sky-600 text-white px-4 py-2 rounded">Login</button></div>
     <p id="login_msg" class="text-sm text-red-600 mt-2"></p>
-    --<div class="text-xs text-slate-500 mt-4">Admin default: admin / 123</div>
+    
   </div></div>`;
   document.getElementById('btnLogin').addEventListener('click', doLogin);
 }
